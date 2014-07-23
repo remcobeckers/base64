@@ -10,13 +10,13 @@ licenses := Seq(
 
 homepage := Some(url("https://github.com/softprops/%s/#readme".format(name.value)))
 
-scalaVersion := "2.9.3"
+scalaVersion := "2.10.4"
 
 scalacOptions += Opts.compile.deprecation
 
-crossScalaVersions := Seq("2.9.3", "2.10.2")
+crossScalaVersions := Seq("2.10.4", "2.11.1")
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "1.9.1" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.0" % "test"
 
 libraryDependencies += "commons-codec" % "commons-codec" % "1.4" % "test"
 
